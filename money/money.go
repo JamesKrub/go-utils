@@ -14,6 +14,10 @@ import (
 	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
 )
 
+func Test()  {
+	fmt.Println("hey")
+}
+
 func NewMoneyFromString(value string) (Money, error) {
 	rtn, err := decimal.NewFromString(value)
 	if err != nil {

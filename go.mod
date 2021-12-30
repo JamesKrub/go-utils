@@ -1,4 +1,4 @@
-module github.com/JamesKrub/utils
+module github.com/JamesKrub/go-utils
 
 go 1.17
 
